@@ -1,0 +1,84 @@
+.cards {
+  /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+}
+/* background-image: url(../../assets/images/back.jpg); */
+
+.menu__card {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  cursor: pointer;
+  padding: 1em;
+  margin: 0px;
+  background-color: #dbdbdb;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+  width: 100%;
+
+  /* 
+    ANTERIOR
+    margin: 0px; 
+    border-radius: 0.5em;
+    margin: 10%;
+    width: 70%; 
+    max-width: 500px;
+    border-left: 0.25em solid #078500;
+    
+    */
+}
+
+.card:hover {
+  background: rgb(250, 250, 250);
+}
+
+.card--full {
+  width: calc(100% - 1em - 1em - 0.5em - 0.5em - 0.25em);
+}
+
+.menu__card__itens h2 {
+  margin-bottom: 10px;
+  color: #3a3939;
+}
+
+/* .card__inform  {
+    font-size: 1.5rem;
+} */
+
+.card__logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  max-height: 100px;
+}
+
+.menu__card__itens {
+  width: 100%;
+}
+
+.menu__card__itens a button {
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: #dbdbdb;
+  margin: 1px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 0.1em solid #999999;
+  border-radius: 5px;
+  color: #3c3c3c;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.addcard__itens button:hover {
+  background-color: #038303;
+  color: #fff;
+}

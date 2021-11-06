@@ -1,0 +1,115 @@
+.form {
+  padding: 1.2em;
+  background-color: #fff;
+}
+
+.form__label {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  color: #000;
+}
+
+.form__input-text {
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #151517;
+  display: inline-block;
+  margin: 8px 0;
+  margin-bottom: 18px;
+  padding: 0.5em 1em;
+  width: 100%;
+}
+
+.form__label-tit2 {
+  margin-top: 1.5em;
+  color: #151517;
+}
+
+.button,
+.form__submit {
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  margin: 1.4em 0;
+  padding: 1em 1em;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  justify-self: center;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s;
+  width: 75%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* .form__submit__button--login {
+    border: none;
+    border-radius: 0.25em;
+    background-color: #000;
+    color: #038303;
+    cursor: pointer;
+    margin: 1.4em 0;
+    padding: 1em 1em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    transition: all 0.3s;
+    
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center; 
+
+    width: 75%;
+ } */
+
+/* .form__submit__button--login:hover {
+    background-color: #038303;
+    box-shadow: 0 0px 3px #038303;
+    color: white;
+} */
+
+.button--success,
+.button--primary,
+.form__submit {
+  background-color: #038303;
+  color: white;
+}
+
+.button--success:hover,
+.button--primary:hover,
+.form__submit:hover {
+  background-color: #149903;
+  /* box-shadow: 0 1px 6px rgb(32 33 36 / 28%); */
+  box-shadow: 0 1px 3px #038303;
+}
+
+/* .button--primary {
+    background-color: #007bff;
+    color: white;
+} */
+
+/* .button--primary:hover {
+    background-color: #0768cf;
+} */
+
+.button--danger {
+  background-color: #e22424;
+  color: white;
+}
+
+.button--danger:hover {
+  background-color: #fd2e43;
+  box-shadow: 0 1px 3px rgb(32 33 36 / 28%);
+}

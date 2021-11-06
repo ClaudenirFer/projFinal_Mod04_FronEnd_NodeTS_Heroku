@@ -1,0 +1,41 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  /* background-image: url(./assets/images/back.jpg); */
+  background-image: repeating-linear-gradient(
+    180deg,
+    #6c6a6b,
+    #cdc7c7,
+    #6c6a6b
+  );
+  width: 100vw;
+  height: 100vh;
+  /* justify-items: center;  */
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* width: 100vw; */
+  /* min-height: 4em; */
+  /* display: flex; */
+  padding: 0px;
+}
+
+/* vertical-align: center;     */
+/* 
+CONFIGURAÇÃO ANTERIOR
+padding: 1em;
+height: 70vh;
+justify-content: space-around;
+
+*/

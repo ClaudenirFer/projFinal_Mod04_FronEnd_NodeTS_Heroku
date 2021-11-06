@@ -1,0 +1,33 @@
+.header {
+  align-items: center;
+  background: #038303;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 4em;
+  padding: 1em;
+  /* width: 100%; */
+}
+
+.header__logo {
+  width: 10em;
+  border-radius: 0.5em;
+}
+
+.header a {
+  color: white;
+  display: flex;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: transform 0.1s ease-in;
+  align-items: center;
+}
+
+.header a:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 425px) {
+  .header {
+    flex-direction: column;
+  }
+}
