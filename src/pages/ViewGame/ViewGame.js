@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Api } from "../../api/Api";
 import LinkButton from "../../components/LinkButton/LinkButton";
 import GameCard from "../../components/GameCard/GameCard";
+import InformGame from "../../components/InformGame/InformGame";
 
 
 export default function ViewGame(props) {
@@ -33,7 +34,9 @@ export default function ViewGame(props) {
     return (
         <div className="item">
 
-            <GameCard game={game} />
+            <InformGame game={game} />
+
+            
 
             <div className="item__buttons">
                 <LinkButton

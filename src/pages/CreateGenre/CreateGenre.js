@@ -49,9 +49,9 @@ export default function CreateGenre(props) {
 
         <div>
           <input className="form__submit" type="submit" value="ADICIONAR" />
-          <Link to="/">
+          {/* <Link to="/">
             <button type="submit">VOLTAR</button>
-          </Link>
+          </Link> */}
         </div>
       </form>
     </div>

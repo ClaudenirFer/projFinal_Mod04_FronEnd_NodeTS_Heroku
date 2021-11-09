@@ -28,9 +28,7 @@ export default function CreateGame(props) {
       youtubeUrl,
       gamePlayUrl,
       genresIds,
-      // [
-      //     genresIds,
-      // ],
+
     };
 
     const response = await Api.buildApiPostRequest(

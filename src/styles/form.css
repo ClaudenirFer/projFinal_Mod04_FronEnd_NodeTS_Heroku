@@ -1,6 +1,7 @@
 .form {
   padding: 1.2em;
   background-color: #fff;
+  
 }
 
 .form__label {
@@ -48,37 +49,7 @@
   width: 75%;
 }
 
-a {
-  text-decoration: none;
-}
 
-/* .form__submit__button--login {
-    border: none;
-    border-radius: 0.25em;
-    background-color: #000;
-    color: #038303;
-    cursor: pointer;
-    margin: 1.4em 0;
-    padding: 1em 1em;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
-    transition: all 0.3s;
-    
-    justify-self: center;
-    justify-items: center;
-    justify-content: center;
-    text-align: center; 
-
-    width: 75%;
- } */
-
-/* .form__submit__button--login:hover {
-    background-color: #038303;
-    box-shadow: 0 0px 3px #038303;
-    color: white;
-} */
 
 .button--success,
 .button--primary,
@@ -95,14 +66,6 @@ a {
   box-shadow: 0 1px 3px #038303;
 }
 
-/* .button--primary {
-    background-color: #007bff;
-    color: white;
-} */
-
-/* .button--primary:hover {
-    background-color: #0768cf;
-} */
 
 .button--danger {
   background-color: #e22424;

@@ -5,15 +5,15 @@ import { Link } from "react-router-dom";
 export default function FullCard({ user }) {
   const history = useHistory();
 
-  const handleClick = () => {
+  // const handleClick = () => {
     // history.push(`/user/view/${user.id}`);
     // console.log("usuário push: ", user.id)
-  };
+  // };
 
   console.log(user);
 
   return (
-    <div className="card" onClick={handleClick}>
+    <div className="card" >
       <div className="card__title">
         <h1>
           {user.name} {user.lastname}

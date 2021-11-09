@@ -21,6 +21,8 @@ import UpdateGenre from "./pages/UpdateGenre/UpdateGenre";
 import DeleteGenre from "./pages/DeleteGenre/DeleteGenre";
 import AddCard from "./components/AddCard/AddCard";
 import ViewCard from "./components/ViewCard/ViewCard";
+import DeleteProfile from "./pages/DeleteProfile/DeleteProfile";
+import InformGame from "./components/InformGame/InformGame";
 
 
 import { Home } from "./pages/Home/Home";
@@ -36,7 +38,11 @@ import "./styles/form.css";
 import "./pages/Login/login.css"
 import "./styles/card.css";
 import "./styles/menucard.css";
-import DeleteProfile from "./pages/DeleteProfile/DeleteProfile";
+import "./styles/cardinform.css"
+import { FavoriteGame } from "./pages/FavoriteGame/FavoriteGame";
+
+
+
 
 
 
@@ -61,6 +67,9 @@ export function App() {
                     /> */}
 
           {/* Games  */}
+
+          <GuardedRoute path="/game/inform" component={InformGame} />
+
           <GuardedRoute path="/game/create" component={CreateGame} />
 
           <GuardedRoute path="/game/view/:id" component={ViewGame} />
@@ -68,6 +77,9 @@ export function App() {
           <GuardedRoute path="/game/update/:id" component={UpdateGame} />
 
           <GuardedRoute path="/game/delete/:id" component={DeleteGame} />
+
+          <GuardedRoute path="/game/favorite" component={FavoriteGame} />
+          
 
           
           

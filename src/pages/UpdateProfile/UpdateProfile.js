@@ -6,9 +6,6 @@ export default function UpdateProfile(props) {
   console.log("UPDATE__PROFILE PROPS:  ", props);
   const id = props.match.params.id;
 
-  // const idUser = props.history.location.state.user.id;
-  // const idProf = +props.match.params.id;
-  // const profile = props.history.location.state.profile;
 
   // console.log("UPDATE__PROFILE ", idProf);
 

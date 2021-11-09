@@ -13,29 +13,17 @@ body {
 
 .content {
   /* background-image: url(./assets/images/back.jpg); */
-  background-image: repeating-linear-gradient(
+  /* background-image: repeating-linear-gradient(
     180deg,
     #6c6a6b,
     #cdc7c7,
     #6c6a6b
-  );
+  ); */
+  background-color: white;
   width: 100vw;
-  height: 100vh;
-  /* justify-items: center;  */
-  /* text-align: center; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* width: 100vw; */
-  /* min-height: 4em; */
-  /* display: flex; */
+  min-height: 100vh;
   padding: 0px;
+
+  display: flex;
+  flex-direction: column;
 }
-
-/* vertical-align: center;     */
-/* 
-CONFIGURAÇÃO ANTERIOR
-padding: 1em;
-height: 70vh;
-justify-content: space-around;
-
-*/

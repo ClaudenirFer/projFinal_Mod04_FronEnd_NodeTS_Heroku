@@ -1,15 +1,9 @@
 import React from "react";
-// import { useHistory } from "react-router";
 import { Link } from "react-router-dom";
 import "../../styles/menucard.css";
 import xboxlogo4 from "../../assets/images/xboxlogo4.png";
 
 export default function AddCard() {
-  // const history = useHistory();
-
-  // const handleClick = () => {
-  //   history.push(`/game/view/${game.id}`);
-  // };
 
   return (
     <div className="menu__card">
@@ -17,7 +11,7 @@ export default function AddCard() {
         <h1>{game.title}</h1>
       </div>
 
-      <div className="card__inform">$ {game.cover}</div>
+      <div className="card__inform">{game.cover}</div>
 
       <div className="card__images">
         {game.profiles.map((profile, index) => (
@@ -39,8 +33,9 @@ export default function AddCard() {
         <Link to="/genre/create">
           <button> GÊNERO </button>
         </Link>
-        <Link to="/">
+        <Link to="/Game/favorite">
           <button> FAVORITOS </button>
+          {/* implementar */}
         </Link>
       </div>
     </div>

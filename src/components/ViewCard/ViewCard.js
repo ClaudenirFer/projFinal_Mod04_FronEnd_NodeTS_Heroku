@@ -7,9 +7,6 @@ import xboxlogo4 from "../../assets/images/xboxlogo4.png";
 export default function ViewCard() {
   // const history = useHistory();
 
-  // const handleClick = () => {
-  //   history.push(`/game/view/${game.id}`);
-  // };
 
   return (
     <div className="menu__card">
@@ -17,7 +14,7 @@ export default function ViewCard() {
         <h1>{game.title}</h1>
       </div>
 
-      <div className="card__inform ">$ {game.cover}</div>
+      <div className="card__inform "> {game.cover}</div>
 
       <div className="card__images">
         {game.profiles.map((profile, index) => (
@@ -39,8 +36,9 @@ export default function ViewCard() {
         <Link to="/genre/view/all">
           <button> GÊNERO </button>
         </Link>
-        <Link to="/">
+        <Link to="/Game/favorite">
           <button> FAVORITOS </button>
+          {/* implementar */}
         </Link>
       </div>
     </div>
